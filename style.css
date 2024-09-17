@@ -1,0 +1,465 @@
+body {
+    margin: 0;
+}
+
+.top-container {
+    position: relative;
+    background-color: rgb(169, 179, 136);
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.vines-without-monkey {
+    position: absolute;
+    left: 0;
+}
+
+.vines-without-monkey2 {
+    position: absolute;
+    right: 0;
+}
+
+.vines-with-monkey {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main-intro {
+    font-size: 6rem;
+}
+
+.second-intro {
+    font-size: 3rem;
+}
+
+.intro {
+    color: rgb(95, 111, 82);
+}
+
+.text-intro {
+    padding-top: 200px;
+    margin: 0;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.main-container {
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    background-color: rgb(254, 250, 224);
+    text-align: center;
+}
+
+.info-about-myself {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.about-myself {
+    text-align: start;
+    margin-left: 50px;
+    color: rgb(185, 148, 112);
+}
+
+.main-text {
+    color: rgb(110, 88, 65);
+    font-size: 3rem;
+    margin: 0;
+}
+
+.second-text {
+    font-family: "Farsan", cursive;
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.myself {
+    width: 400px;
+    border-radius: 10%;
+}
+
+.description-text {
+    font-family: "Farsan", cursive;
+    font-weight: 800;
+    font-size: 22px;
+    margin: 0;
+}
+
+hr {
+    border: dotted rgb(185, 148, 112) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.heading-my-skills {
+    font-size: 4rem;
+    color: rgb(110, 88, 65);
+    margin: 0;
+}
+
+.my-skills {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    width: 60%;
+    margin: 100px 30% auto 20%;
+    gap: 2rem;
+}
+
+.ukulele {
+    align-self: center;
+}
+
+.ukulele img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ukulele-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    font-size: 1.5rem;
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+    color: rgb(185, 148, 112);
+}
+
+.name {
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+    color: rgb(110, 88, 65);
+}
+
+.running {
+    align-self: center;
+}
+
+.running img {
+    max-width: 100%;
+    height: auto;
+}
+
+.running-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    font-size: 1.5rem;
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+    color: rgb(185, 148, 112);
+}
+
+.contact-me {
+    background-color: #fefae0;
+    font-family: "Farsan", cursive;
+    font-weight: 400;
+}
+
+.get-in-touch {
+    color: rgb(110, 88, 65);
+}
+
+.contact-description {
+    color: rgb(185, 148, 112);
+    margin: 20px 50px;
+    font-size: 1.5rem;
+}
+
+.mail-me {
+    padding: 10px;
+    margin: 30px auto;
+    margin-bottom: 100px;
+    background-color: #fefae0;
+    border: 2px solid rgb(110, 88, 65);
+    border-radius: 3px;
+    width: 150px;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 88, 65);
+    font-size: 1.7rem;
+    font-family: "Farsan", cursive;
+    font-weight: 800;
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: rgb(224, 191, 159);
+    padding-top: 40px;
+    padding-bottom: 80px;
+    height: 10vh;
+}
+
+.social-links {
+    margin: auto 30px;
+}
+
+footer {
+    font-family: "Farsan", cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(110, 88, 65);
+}
+
+.edits {
+    text-decoration: underline;
+    color: rgb(110, 88, 65);
+    font-size: 1.7rem;
+    font-family: "Farsan", cursive;
+    font-weight: 800;
+}
+
+@media (max-width: 1220px) {
+    .vines-without-monkey {
+        width: 380px;
+    }
+
+    .vines-without-monkey2 {
+        width: 380px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .vines-without-monkey {
+        width: 330px;
+    }
+
+    .vines-without-monkey2 {
+        width: 330px;
+    }
+
+    .vines-with-monkey {
+        width: 400px;
+        padding-top: 50px;
+    }
+
+    .main-intro {
+        font-size: 5rem;
+        margin-bottom: 50px;
+    }
+
+    .second-intro {
+        font-size: 2.5rem;
+    }
+
+    .my-skills {
+        width: 70%;
+        margin: 100px 10% auto 15%;
+    }
+
+    .myself {
+        width: 370px;
+    }
+
+    .my-skills {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 690px) {
+    .myself {
+        width: 300px;
+    }
+
+    .vines-without-monkey {
+        width: 280px;
+    }
+
+    .vines-without-monkey2 {
+        width: 280px;
+    }
+
+    .vines-with-monkey {
+        width: 300px;
+    }
+
+    .main-intro {
+        font-size: 4rem;
+    }
+
+    .second-intro {
+        font-size: 2rem;
+    }
+
+    .my-skills {
+        gap: 1.2rem;
+    }
+}
+
+@media (max-width: 590px) {
+    .vines-without-monkey {
+        width: 230px;
+    }
+
+    .vines-without-monkey2 {
+        width: 230px;
+    }
+
+    .main-text {
+        font-size: 2.7rem;
+    }
+
+    .second-text {
+        font-size: 1.85rem;
+    }
+
+    .myself {
+        margin-left: 0;
+    }
+
+    .about-myself {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 470px) {
+    .vines-with-monkey {
+        width: 260px;
+    }
+
+    .vines-without-monkey {
+        width: 200px;
+    }
+
+    .vines-without-monkey2 {
+        width: 200px;
+    }
+
+    .about-myself {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .my-skills {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 433px) {
+    .about-myself {
+        text-align: center;
+    }
+
+    .vines-without-monkey {
+        width: 175px;
+    }
+
+    .vines-without-monkey2 {
+        width: 175px;
+    }
+}
+
+@media (max-width: 400px) {
+    .vines-without-monkey {
+        width: 150px;
+    }
+
+    .vines-without-monkey2 {
+        width: 150px;
+    }
+}
+
+@media (max-height: 844px) {
+    .bottom-container {
+        height: 10vh;
+    }
+}
+
+@media (max-height: 896px) {
+    .bottom-container {
+        height: 5vh;
+    }
+}
+
+@media (max-height: 932px) {
+    .bottom-container {
+        height: 5vh;
+    }
+}
+
+@media (max-height: 740px) {
+    .bottom-container {
+        height: 10vh;
+    }
+}
+
+@media (max-height: 640px) {
+    .bottom-container {
+        height: 10vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .vines-without-monkey {
+        width: 125px;
+    }
+
+    .vines-without-monkey2 {
+        width: 125px;
+    }
+
+    .vines-with-monkey {
+        width: 220px;
+    }
+
+    .myself {
+        width: 250px;
+    }
+
+    .bottom-container {
+        height: 15vh;
+    }
+}
+
+@media (max-height: 667px) {
+    .bottom-container {
+        height: 15vh;
+    }
+}
+
+@media (max-height: 1024px) {
+    .bottom-container {
+        height: 5vh;
+    }
+}
+
+@media (max-height: 1368px) {
+    .bottom-container {
+        height: 5vh;
+    }
+}
+
+@media (max-width: 912px) {
+    .info-about-myself {
+        flex-direction: column;
+    }
+}
+
+@media (max-height: 653px), (max-width: 280px) {
+    .bottom-container {
+        height: 10vh;
+    }
+
+    .myself {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
